@@ -1,0 +1,56 @@
+@charset "UTF-8";
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 26 ao├╗t 2015, 14:36:21
+    Author     : cosperec
+*/
+html {
+  height: 100%; }
+
+body {
+  height: 100%; }
+
+.menu {
+  width: 100%;
+  overflow: hidden;
+  position: absolute; }
+  .menu h2 {
+    position: absolute;
+    color: #FFFFFF;
+    font-size: 35px; }
+
+#menu1 {
+  background-image: url(../img/Desert.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 33%;
+  z-index: 10; }
+
+#menu2 {
+  background-image: url(../img/Tulips580.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 66%;
+  z-index: 9; }
+  #menu2 h2 {
+    position: absolute;
+    top: 50%; }
+
+#menu3 {
+  background-image: url(../img/Jellyfish.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100%;
+  z-index: 8; }
+  #menu3 h2 {
+    position: absolute;
+    top: 67%; }
+
+/*# sourceMappingURL=menu_acc.css.map */
