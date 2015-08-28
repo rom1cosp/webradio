@@ -26,6 +26,9 @@ body{
         color: #FFFFFF;
         font-size: 35px;
     }
+    button{
+        margin-top:50px;
+    }
 }
 #menu1{
     background-image: url(../img/Desert.jpg);
@@ -44,12 +47,11 @@ body{
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    height: 66%;
+    height: 33%;
     z-index: 9;
-    
+    top:33%;
     h2{
-        position: absolute;
-       top:50%;
+       
     }
 }
 #menu3{
@@ -57,11 +59,10 @@ body{
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    height: 100%;
+    height: 34%;
     z-index: 8;
-  
+    top:66%;
     h2{
-       position: absolute;
-       top:67%;
+       
     }
 }

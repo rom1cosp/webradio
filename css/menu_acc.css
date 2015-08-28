@@ -22,6 +22,8 @@ body {
     position: absolute;
     color: #FFFFFF;
     font-size: 35px; }
+  .menu button {
+    margin-top: 50px; }
 
 #menu1 {
   background-image: url(../img/Desert.jpg);
@@ -36,21 +38,17 @@ body {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  height: 66%;
-  z-index: 9; }
-  #menu2 h2 {
-    position: absolute;
-    top: 50%; }
+  height: 33%;
+  z-index: 9;
+  top: 33%; }
 
 #menu3 {
   background-image: url(../img/Jellyfish.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  height: 100%;
-  z-index: 8; }
-  #menu3 h2 {
-    position: absolute;
-    top: 67%; }
+  height: 34%;
+  z-index: 8;
+  top: 66%; }
 
 /*# sourceMappingURL=menu_acc.css.map */
